@@ -1,3 +1,13 @@
+// Remove posts from Facebook profile page.  Useful for those items which do not show in the activity log.
+//
+// 'actionMenuItemText' are the menu item options to look for and execute, in order.
+// When one is matched, it is clicked and the loop is aborted.  If no match the item is ignored.
+//
+// You may have to manually scroll the page to make enough items load for this to be effective.
+//
+// Scripts to run in-place when the relevant page is open in Facebook
+// Written and tested in ScriptRunner Pro chrome extension
+
 const actionButtonLabel = "Actions for this post";
 const actionMenuItemText = ["Move to archive", "Hide from profile"];
 
