@@ -3,6 +3,13 @@ A set of very basic js scripts (designed to run in browser) to enable easy delet
 
 Some manual tweaks are necessary between pages.
 
+You should also note that when it comes time to delete your account you also need to:
+* Remove any Facebook apps you have registered in the developer centre
+* Delete your developer centre account
+* Remove any linked apps you may have
+
+Otherwise you (currently) get an error and your account deletion is not scheduled.
+
 ## Background
 I wanted to remove myself entirely from Meta products (along with some others) thanks to their ... unsavoury changes in attitudes recently.
 
